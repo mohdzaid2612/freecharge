@@ -1,0 +1,52 @@
+.otp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.otp__main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 40vh;
+    box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
+}
+.otp__main form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.otp__form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+.otp__form h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins';
+}
+.otp__form input{
+    padding: 1rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+}
+.otp__form button{
+    height: 5vh;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
